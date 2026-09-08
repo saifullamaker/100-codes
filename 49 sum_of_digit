@@ -1,0 +1,15 @@
+# 1. Pick a number
+number = 111
+
+# 2. Convert it to text so we can read it digit by digit
+text_number = str(number)
+
+# 3. Start our total count at 0
+total_sum = 0
+
+# 4. Loop through each digit and add it to the total
+for digit in text_number:
+    total_sum = total_sum + int(digit)
+
+# 5. Print the final answer
+print("The sum of digits is:", total_sum)
